@@ -1,0 +1,297 @@
+/* Move body down from fixed-nav */
+
+body {
+  padding-top: 50px;
+  overflow-x: hidden;
+  font-size: 1.6em;
+}
+
+/* Google Map */
+
+#map {
+  width: 100%;
+  height: 415px;
+  margin-bottom: 20px;
+  text-shadow: none;
+}
+
+/* Back to Top Icon */
+
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: rgba(117, 138, 129, 0.7);
+}
+
+.back-to-top:hover {
+  color: rgba(117, 138, 129, 1);
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p,
+li {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+/* Navbar */
+
+.anchor {
+  padding-top: 50px;
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 15px;
+}
+
+.project-name a {
+  color: white;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.navbar a {
+  text-transform: uppercase;
+}
+
+.navbar-right {
+  margin-right: 15px;
+}
+
+/* Carousel */
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.carousel-caption {
+  margin-bottom: 280px;
+  background: rgba(117, 138, 129, 0.5);
+  border-radius: 5px;
+}
+
+.carousel-caption h1 {
+  text-shadow: 3px 3px 4px #000;
+  font-size: 3em;
+}
+
+.carousel-caption p {
+  text-align: center;
+  text-shadow: 3px 3px 4px #000;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+/* Button */
+
+.button {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-width: 3px;
+}
+
+.button:hover {
+  background-color: grey;
+  border-color: grey;
+  color: #fff;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* Recent Work */
+
+#works {
+  background-image: url("../img/worksBackground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+}
+
+#work {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#works .row {
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.work-panel {
+  margin: 10px;
+}
+
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  position: relative;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  background: rgba(117, 138, 129, 0.5);
+  max-width: 300px;
+  top: 0;
+  left: 9px;
+  right: -9px;
+  bottom: 0;
+  padding-top: 30%;
+  padding-left: 30%;
+  color: #fff;
+  text-shadow: 0 2px 3px #000;
+  font-family: Lato;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+
+.proj-title {
+  font-weight: 100;
+}
+
+/* About Page */
+
+#skills li {
+  margin-left: 50px;
+}
+
+#intro > h3, p {
+  text-align: left;
+  margin-left: 35px;
+}
+
+/* FAQ accordion */
+
+.panel-default > .panel-heading {
+  background-color: black;
+  color: white;
+}
+
+.panel-title {
+  font-size: 1.2em;
+}
+
+/* Contact */
+
+#contact {
+  background-image: url("../img/contactBackgroundv2.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+  height: auto;
+/*Have the background cover the entire div section*/
+  color: white;
+  text-shadow: 0 2px 3px #000;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+}
+
+.contact-form {
+  padding-left: 50px;
+}
+
+.contact-info p {
+  margin-left: 0;
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+/* Video embed */
+
+#video {
+  margin-top: 20px;
+}
+
+.embed-responsive-item {
+  max-height: 80vh;
+}
+
+.embed-responsive-4by3 {
+  padding-bottom: 65%;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+
+.footer-copyright {
+  padding-left: 40px;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.footer-social {
+  float: right;
+  padding-top: 10px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.fb-like {
+  margin-top: -2px;
+  padding: 0 5px 0 0;
+  position: relative;
+  vertical-align: top;
+}
+
+/* Modal */
+
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-left: 115px;
+  margin-top: 30px;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+  margin-right: 105px;
+  margin-top: 30px;
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
